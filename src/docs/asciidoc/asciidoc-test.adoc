@@ -1,0 +1,5 @@
+= Project Euler
+:doctype: book
+
+include::_chapter1.adoc[leveloffset=+1]
+include::_chapter2.adoc[leveloffset=+1]

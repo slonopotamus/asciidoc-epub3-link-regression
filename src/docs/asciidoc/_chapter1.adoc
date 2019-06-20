@@ -1,0 +1,6 @@
+[[_chapter1]]
+= Chapter 1
+
+Some text.
+
+<<_chapter2.adoc#subtitle,Link to subtitle in chapter 2>>

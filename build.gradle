@@ -1,0 +1,22 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'org.asciidoctor.jvm.epub'    version '3.0.0-alpha.3'
+}
+
+repositories {
+    jcenter()
+}
+
+wrapper { gradleVersion = '5.4.1' }
+
+asciidoctorj {
+    modules {
+        epub.version = "1.5.0-alpha.9"
+    }
+}
+
+asciidoctorEpub {
+    baseDirFollowsSourceDir()
+    ebookFormats EPUB3
+}
